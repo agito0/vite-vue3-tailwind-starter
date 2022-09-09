@@ -4,7 +4,7 @@
     <div
       class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8"
     >
-      <span class="text-[#d2d] text-[30px]">Vite + Vue 3 + Tailwind CSS</span>
+      <span class="text-[#171e9b] text-[30px]">Vite + Vue 3 + Tailwind CSS</span>
       <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
         <div class="inline-flex rounded-md shadow">
           <router-link

@@ -9,7 +9,5 @@
 </template>
 
 <script setup>
-useHead({
-  title: '404',
-})
+
 </script>

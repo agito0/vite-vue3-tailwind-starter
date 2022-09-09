@@ -58,7 +58,7 @@
 
 <script lang="ts" setup>
 import { reactive } from 'vue'
-
+import {apiLogin} from '../api/login'
 const props = defineProps({
     text:String,
     message:Number
@@ -86,5 +86,6 @@ const form = reactive({
 const onSubmit = () => {
   console.log('submit!')
   emit("itemClick", {});
+  apiLogin({email:'8188818@qq.com' , password:'123Aa123'}).then(res=>{})
 }
 </script>

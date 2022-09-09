@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@vueuse/head": "^0.7.9",
+    "axios": "^0.27.2",
     "element-plus": "^2.2.16",
     "pinia": "^2.0.22",
     "postcss": "^8.1.0",
