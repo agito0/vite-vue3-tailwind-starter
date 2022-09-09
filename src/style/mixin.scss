@@ -1,0 +1,44 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin scrollBar {
+  &::-webkit-scrollbar-track-piece {
+    background: #d3dce6;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+}
+
+@mixin relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin shadowBox($radian:4px,$width:1px) {
+  box-shadow: 0 3px 6px rgba(0,0,0,.13);
+  border-radius: $radian;
+  background: #fff;
+  border:$width solid #DFDFE0;
+  box-sizing: border-box;
+  &:hover{
+    box-shadow: 0 4px 8px rgba(0,0,0,.18);
+  }
+}
+
+@mixin lineClamp2 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+}

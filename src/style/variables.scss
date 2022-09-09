@@ -1,0 +1,59 @@
+@import './mixin.scss';
+
+$--color-white: #fff !default;
+$--color-primary: #00B2E6 !default;
+$--color-disabled-white: #F5F5F5 !default;
+$--color-disabled-gray: #E6E6E6 !default;
+$--color-border: #dcdcdc !default;
+
+$--button-primary : linear-gradient(133deg, #5D49D6 0%, #8D73F1 100%) ;
+$--button-primary-border : #5D49D6 ;
+
+$base-primary:#56BF8B; // 主题色
+$base-brand:#576AA4; // 品牌色
+$base-success: #70CC70;
+$base-warning: #E6A667;
+$base-danger: #D96262;
+
+// 文字颜色
+$base-text-primary: #2e2f33;
+$base-text-regular: #5c5e66;
+$base-text-secondary: #8b8e9a;
+$base-text-placeholder: #b9becd;
+
+// 默认菜单主题风格
+$base-menu-color:#bfcbd9;
+$base-menu-color-active:#f4f4f5;
+$base-menu-background:#0D2059;
+$base-logo-title-color: #ffffff;
+
+$base-menu-light-color:rgba(0,0,0,.70);
+$base-menu-light-background:#ffffff;
+$base-logo-light-title-color: #001529;
+
+$base-sub-menu-background:#1f2d3d;
+$base-sub-menu-hover:#001528;
+
+
+$base-sidebar-width: 192px;
+$base-navbar-height: 48px;
+
+$--color-primary: $base-primary;
+$--color-success: #70CC70;
+$--color-warning: #E6A667;
+$--color-danger: #D96262;
+// $--color-info: #1E1E1E;
+
+$--color-text-primary: #2e2f33;
+$--color-text-regular: #5c5e66;
+$--color-text-secondary: #8b8e9a;
+$--color-text-placeholder: #b9becd;
+
+$--button-font-weight: 400;
+
+// $--color-text-regular: #1f2d3d;
+
+$--border-color-light: #dfe4ed;
+$--border-color-lighter: #e6ebf5;
+
+$--table-border:1px solid #dfe6ec;
