@@ -1,9 +1,13 @@
 import axios from 'axios';
 import { ElMessage } from 'element-plus';
+console.log(import.meta.env);
+const protocol = window.location.protocol; // 协议
+const host = window.location.host;
 
 // 创建axios实例
 const service = axios.create({
   baseURL: import.meta.env.VITE_APP_AXIOS_BASE_URL,
+  // baseURL: protocol + "//" + host + "/",
   timeout: 60000,
 });
 
