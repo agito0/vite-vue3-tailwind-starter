@@ -8,6 +8,9 @@
   </header>
 </template>
 
-<script setup>
+<script setup lang="ts">
 
+  const a = computed(()=>(false))
+  console.log(a.value);
+  
 </script>

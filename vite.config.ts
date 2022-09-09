@@ -17,11 +17,17 @@ export default defineConfig({
       imports: ['vue', '@vueuse/head', VueRouterAutoImports],
     }),
   ],
+  resolve: {
+    alias: {
+      '@':'/src/',
+    }
+  },
   server: {
     open: true, //浏览器自动打开页面
     host: "0.0.0.0", //如果是真机测试，就使用这个IP
     port: 8089,
     // https: true,
+    hmr: true,
     proxy: { //配置跨域
       '/api': {
         target: crossHost,
