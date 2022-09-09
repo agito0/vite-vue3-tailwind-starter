@@ -59,6 +59,18 @@
 <script lang="ts" setup>
 import { reactive } from 'vue'
 
+const props = defineProps({
+    text:String,
+    message:Number
+})
+
+onMounted(() => {
+
+
+})
+
+const emit = defineEmits(["itemClick" , 'itemClick2']);
+
 // do not use same name with ref
 const form = reactive({
   name: '',
@@ -73,5 +85,6 @@ const form = reactive({
 
 const onSubmit = () => {
   console.log('submit!')
+  emit("itemClick", {});
 }
 </script>
