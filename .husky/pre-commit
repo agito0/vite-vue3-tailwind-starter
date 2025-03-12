@@ -1,0 +1,6 @@
+#!/bin/sh
+set -x  # 启用调试模式
+. "$(dirname "$0")/_/husky.sh"
+
+# npx eslint --fix
+# npx prettier --write
